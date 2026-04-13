@@ -1,0 +1,14 @@
+{
+  "name": "craigsands-dotfiles",
+  "owner": {
+    "name": "Craig Sands"
+  },
+  "plugins": [
+    {
+      "name": "gitlab-tools",
+      "source": "./",
+      "skills": ["./skills/commit-push-mr"],
+      "strict": false
+    }
+  ]
+}
