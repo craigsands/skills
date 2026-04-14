@@ -8,7 +8,7 @@
 #
 # Worktrees are always created at <repo-root>/.worktrees/<branch-name>,
 # branching from the latest origin/HEAD (fetched before creation).
-# Ensures .worktrees/ is in .gitignore, committing it if missing.
+# Ensures .worktrees/ is in .gitignore.
 # Idempotent: exists cleanly if already inside a worktree for the given branch
 #
 # EXIT CODES
