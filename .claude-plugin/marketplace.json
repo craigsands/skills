@@ -5,9 +5,9 @@
   },
   "plugins": [
     {
-      "name": "gitlab-tools",
+      "name": "git-tools",
       "source": "./",
-      "skills": ["./skills/commit-push-mr"],
+      "skills": ["./skills/committing-to-gitlab"],
       "strict": false
     }
   ]
