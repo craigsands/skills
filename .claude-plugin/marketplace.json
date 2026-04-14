@@ -7,7 +7,10 @@
     {
       "name": "git-tools",
       "source": "./",
-      "skills": ["./skills/committing-to-gitlab"],
+      "skills": [
+        "./skills/committing-to-gitlab",
+        "./skills/using-git-worktrees"
+      ],
       "strict": false
     }
   ]
