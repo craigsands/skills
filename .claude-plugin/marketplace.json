@@ -1,5 +1,5 @@
 {
-  "name": "craigsands-dotfiles",
+  "name": "craigsands-skills",
   "owner": {
     "name": "Craig Sands"
   },
@@ -7,7 +7,7 @@
     {
       "name": "gitlab-tools",
       "source": "./",
-      "skills": ["./skills/commit-push-mr"],
+      "skills": ["./skills/committing-to-gitlab"],
       "strict": false
     }
   ]
