@@ -1,6 +1,7 @@
 ---
+name: committing-to-gitlab
+description: Commit, push, and open a merge request to a GitLab repository
 allowed-tools: Bash(git checkout --branch:*), Bash(git add:*), Bash(git status:*), Bash(git push:*), Bash(git commit:*), Bash(glab mr create:*)
-description: Commit, push, and open a merge request
 ---
 
 ## Context
