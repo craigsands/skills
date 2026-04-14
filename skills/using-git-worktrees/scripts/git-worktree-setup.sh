@@ -42,11 +42,9 @@ fi
 
 # -- Gitignore ------------------------------------------------------------------
 
-if ! git -C "$REPO_ROOT" check-ignore -q .worktrees 2>/dev/null; then
+if ! git -C "$REPO_ROOT" check-ignore -q "$REPO_ROOT/.worktrees" 2>/dev/null; then
     info ".worktrees is not git-ignored - adding to .gitignore"
     echo ".worktrees/" >> "$REPO_ROOT/.gitignore"
-    git -C "$REPO_ROOT" add .gitignore
-    git -C "$REPO_ROOT" commit -m "chore: ignore .worktrees directory"
 fi
 
 # -- Resolve default branch -----------------------------------------------------
