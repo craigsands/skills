@@ -13,7 +13,7 @@ description: Use whenever writing to any file inside a git repository - editing 
 scripts/git-worktree-setup.sh <branch-name>
 ```
 
-Worktrees are always created at `<repo-root>/.worktrees/<branch-name>`, branching from the latest `origin/HEAD`. The script ensures `.worktrees/` is in `.gitignore` (commits it if missing) and is idempotent.
+Worktrees are always created at `<repo-root>/.worktrees/<branch-name>`, branching from the latest `origin/HEAD`. The script ensures `.worktrees/` is in `.gitignore` and is idempotent.
 
 ## After Setup
 
