@@ -42,7 +42,7 @@ fi
 
 # -- Gitignore ------------------------------------------------------------------
 
-if ! git -C "$REPO_ROOT" check-ignore -q "$REPO_ROOT/.worktrees" 2>/dev/null; then
+if ! grep -qx '\.worktrees/' "$REPO_ROOT/.gitignore" 2>/dev/null; then
     info ".worktrees is not git-ignored - adding to .gitignore"
     echo ".worktrees/" >> "$REPO_ROOT/.gitignore"
 fi
